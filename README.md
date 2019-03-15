@@ -71,11 +71,11 @@ propuso [Walmart](https://drive.google.com/file/d/0B6GBtl-gO6LwaVprQkFqTGI2a28/v
 |       |  Martes           | Miércoles                    | Jueves                        | Viernes                               |
 |------ | ------------------| ---------------------------- | ----------------------------- | ------------------------------------- |
 | 8:00  | Kick off hackaton | Daily por squad              | Daily por squad               | Detalles finales                      |
-| 9:00  | Sesión de planificación  | Hackeo                       | Hackeo                        |                                       |
-| 10:00 | Hackeo            | Compartir link de aplicación | Inscripción de aplicaciones   | Feria de demostraciones               |
-| 11:00 |                   | Presentación y Feedback      |                               | Presentación de mejores squads        |
+| 9:00  | Sesión de planificación  | Hackeo                       | Hackeo                 | Feria de demostraciones               |
+| 10:00 | Hackeo            | Compartir link de aplicación | Inscripción de aplicaciones   | Presentación de mejores squads        |
+| 11:00 |                   | Presentación y Feedback      |                               | Deliberación del jurado               |
 | 12:00 |                   |                              |                               |                                       |
-|>13:00 |                   |                              |                               | Deliberación del jurado               |
+|>13:00 |                   |                              |                               |                                       |
 | 20:00 |                   |                              | Cierre de inscripciones       |                                       |
 
 ## Tips para la organización de trabajo entre UX y Front end 
