@@ -31,7 +31,7 @@ uno de pelis de terror... o... ¡lo que quieras!
 
  ## Consideraciones generales
 
- * Este proyecto se debe resolver en equipos de hasta 3 personas.
+ * Este proyecto se debe resolver en equipos de hasta 4 personas.
 * Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
 * Tiempo para completar el reto: 4 días.
 * Habrán dos presentaciones, una a la mitad de la _hackathon_ y otra al final.
