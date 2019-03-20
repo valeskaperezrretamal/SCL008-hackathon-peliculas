@@ -1,0 +1,14 @@
+.posters{
+    width: 200px;
+    border-radius: 20px;
+    opacity: 0.5;
+    transition: 0.3s ease-in-out;
+    border: 2px solid black;
+}
+.posters:hover{
+    opacity:1;
+ 
+}
+.posters:active{
+    width: 300px;
+}
