@@ -1,30 +1,59 @@
 
+//window.getData = getData;
+// prueba para comprobar función. Conectar html
 let barra_peliculas=document.getElementById("barra_peliculas")
-let poster1=document.getElementById("poster1")
-let poster2=document.getElementById("poster2")
-let Title1=document.getElementById("Title1")
-let Title2=document.getElementById("Title2")
 
-    const nombrePelis = ["infinity war",
+//peliculas con la cuales vamos a trabajar 
+        const nombrePelis = ["infinity war",
                         "the avengers",
-                        "age of ultron"];
+                        "age of ultron",
+                        "Black Panther",
+                        "Iron Man 3",
+                        "civil war",
+                        "spiderman 3",
+                        "thor",
+                        "venom",
+                        "ragnarok",
+                        "ant man",
+                        "doctor strange",
+                        "guardians of the galaxy",
+                        "captain marvel",
+                        "into the spider-verse",
+                        "Iron Man 2",
+                        "Iron Man",
+                        "Winter soldier",
+                        "Ant-Man and the Wasp",
+                        "Avengers: Endgame"];
 //obtener la data
-let getData = (pelicula,id_img, id_title) =>{
+let getdata=()=>{
     
-    fetch("http://www.omdbapi.com/?t="+ pelicula  +"&apikey=e9cb41b7").then((response)=>{
+    for(let i =0;i<nombrePelis.length;i++){
+    
+    fetch("http://www.omdbapi.com/?t="+ nombrePelis[i]  +"&apikey=e9cb41b7").then((response)=>{
         return response.json();
     }).then((j) => {
-        console.log(j);
-        id_title.innerHTML=j.Title;
-        j.Year
-        j.Ratings
-        j.Actors
-        j.Director
-        id_img.src= j.Poster;
-        j.Plot
-
+       
+       document.getElementById("Title"+i).innerHTML=j.Title;
+       
+       document.getElementById("poster"+i).src=j.Poster;
+            
     });
+  
 }
+}
+let fillFilms = () =>{
+    //para ruta a seguir, en la api para seguir el url
+    let  htmlcode ="";
 
-getData(nombrePelis[0],poster1,Title1);
-getData(nombrePelis[1],poster2,Title2);
+    for(let i =0;i<nombrePelis.length;i++){
+    
+    htmlcode=htmlcode + '<img id="poster'+i+'" src="" alt="" class="posters"></img>'
+                                +  '<h1 id="Title'+i+'"></h1>';
+    
+    }
+    barra_peliculas.innerHTML=htmlcode;    
+   
+    
+}
+fillFilms();
+getdata();
