@@ -1,24 +1,30 @@
-const list = document.getElementById('list');
+const list = document.getElementById('movielist')
 
 const showData = moviePromises => {
-    let html = '';
-   
-    Promise.all(moviePromises).then(movies => {
-        console.log('MOVIE', movies);
-        
-        movies.forEach(movie => {
-            html += `<div>
-                <h5>${movie.Title}</h5>
-                <p>Actors: ${movie.Actors}</p>
-                <p>Year: ${movie.Year}</p>
-                <p>Plot: ${movie.Plot}</p>
-                <img id="poster" src="${movie.Poster}" alt="" class="posters"></img>
-                </div>`;
-        });
-        
-        
-        list.innerHTML = html;
-    })
+  let html = ''
+
+  moviePromises.forEach(promise => {
+    promise.then(movie => {
+      html += `<div class="card">
+          <div class="thumbnail">
+            <img src="${movie.Poster}" alt="${movie.Title}">
+            <div class="caption">
+              <h3>${movie.Title}</h3>
+              <p>${movie.Plot}</p>
+              <p>${movie.Actors}</p>
+              <p>${movie.Year}</p>
+            </div>
+          </div>
+        </div>`;
+    });
+  });
+
+  Promise.all(moviePromises).then(() => {
+    list.innerHTML = html;
+  })
 }
-const promises = window.getData(window.movieList);
-showData(promises)
+
+if (list) {
+  const promises = window.getData(window.movieList)
+  showData(promises)
+}

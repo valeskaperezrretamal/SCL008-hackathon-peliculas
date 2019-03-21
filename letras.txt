@@ -1,0 +1,4 @@
+font-family: 'Marvel', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Play', sans-serif;

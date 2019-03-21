@@ -1,21 +1,146 @@
-<!DOCTYPE html>
-<html>
-   <head>
+<!doctype html>
+<html lang= "en" >
+<head> <!-- Required meta tags -->
+    <meta charset= "utf-8" >
+    <meta name= "viewport" content= "width=device-width, initial-scale=1, shrink-to-fit=no" > <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Marvel|Play|Raleway" rel="stylesheet">
+    <title>MarveLab</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
-   </head>
-   <body>
-       <header>
+</head>
 
-       </header>
-       <main>
-           <section id="list">
 
-           </section>
-       </main>
-       <footer>
+<body>
 
-       </footer>
-       <script src="data.js" type="text/javascript"></script>
-       <script src="main.js" type="text/javascript"></script>
-   </body>
+  <!-- INICIO ENCABEZADO-->
+<header class="header">
+    <section class="container-fluid">
+        <div class= "row">
+            <div class="col-xs-2 col-md-3">
+                <div class="headerLogo"> <!--logotipo-->
+                    <a href="index.html"> <img src = "imagenes/LogoMarvelab.PNG" class="img-responsive" alt="logo"></a>
+                </div>
+            </div>
+            <div class="col-xs-10 col-md-9 ">   <!-- col-md-offset-1 para saltarme el espacio-->
+                <h1>Toda la información sobre tus peliculas favoritas de Marvel</h1>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row ">
+                    <ul class="nav">
+                        <div class="col-sm-1">
+                            <li class="nav-item">
+                                <a class="nav-link " href="index.html">Home </a>
+                            </li>
+                        </div>
+
+                        <div class="col-sm-1">
+                            <li class="nav-item">
+                                <a class="nav-link" href="movies.html">Películas</a>
+                            </li>
+                        </div>
+
+                        <div class="col-sm-1">
+                            <li class="nav-item">
+                                <a class="nav-link" href="trailers.html">Trailers</a>
+                            </li>
+                        </div>
+
+                        <div class="col-sm-1">
+                            <li class="nav-item">
+                                <a class="nav-link " href="https://www.marvel.com/comics/list/623/get_started_with_free_issues?&options%5Boffset%5D=0&totalcount=28"target="_blank">Comics</a>
+                            </li>
+                        </div>
+
+                        <div class="col-sm-2">
+                            <li class="nav-item">
+                                <a class="nav-link " href="https://open.spotify.com/user/marvel_music_" target="_blank">Sound Track</a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+
+
+<!-- FIN ENCABEZADO-->
+<section>
+    <div class="headerVideo">
+        <video class="video-fluid z-depth-1" autoplay loop controls muted>
+            <source src="imagenes/AVENGERS 4 Endgame Trailer Español (Vengadores 2019).mp4" type="video/mp4" />
+        </video>
+        <div class="row">
+            <div class="imgVideo">
+                <div class="col-xs-2 .col-xs-offset-2">
+                    <img src = "imagenes/imagenVideo.png" class="img-responsive" alt="logo">
+                </div>
+                <div class="textVideo">
+                    <h4>Pronto en Cines</h4>
+                    <h5>April 26, 2019</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="trivia">
+            <div class="row">
+                <div class="center-block">
+                    <div class="col-xs-4">
+                        <h2>Juega a la Trivia</h2>
+                        <p>Que Personaje de Marvel eres?.</strong></p>
+                    </div>
+                </div>
+                <div class="imagenesTrivia">
+                    <div class="col-xs-4 ">
+                        <img src="imagenes/imgTrivia.jpg" class="img-responsive" alt="Trivia"></a>
+                    </div>
+                </div>
+                <div class="col-xs-4 ">
+                    <a class="btn btn-primary" href="https://culturizando.com/trivial-nivel-experto-marvel/" role="button">Ingresa a la Trivia</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<footer>
+    <div class="container-fluid">
+        <section class="row">
+            <div class="team">
+                <div class="col-xs-6 col-md-11">
+                    <h3> </h3>
+                    <h3> </h3>
+                    <h3> </h3>
+                </div>
+            </div>
+            <div class="socialMedia">
+                <div class="col-xs-6 col-md-1">
+                    <a href="https://facebook.com"target="_blank"><img src="imagenes/facebook.png" class="img-responsive" alt="facebook"></a>
+                    <a href="https://twitter.com"target="_blank"><img src="imagenes/twitter.png" class="img-responsive" alt="twitter"></a>
+                </div>
+            </div>
+        </section>
+    </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
 </html>

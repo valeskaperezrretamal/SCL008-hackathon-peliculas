@@ -1,14 +1,269 @@
-.posters{
-    width: 200px;
-    border-radius: 20px;
-    opacity: 0.5;
-    transition: 0.3s ease-in-out;
-    border: 2px solid black;
+*{
+     box-sizing: border-box; /*margen y pading iguales */
+     font-family: 'Marvel', sans-serif;
+     color: white;
 }
-.posters:hover{
-    opacity:1;
- 
+
+body{
+    margin: 0%;
 }
-.posters:active{
-    width: 300px;
+
+
+.trivia, footer, section#trivia{
+    background: rgb(0, 0, 0);
+}
+
+a.nav-link {
+    color: white;
+    font-size: 25px
+}
+
+.headerLogo{
+width: 99%;
+
+}
+
+.headerVideo {
+    position: relative;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+.headerVideo video{
+    min-width: 100%;
+    max-width: 100%;
+}
+.header{  /* si */
+    width: 100%;
+    height: auto;
+    position: relative;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+
+.imgVideo{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 14% 0% 0% 4%;
+z-index: 2;
+}
+.imgVideo img{
+    max-width: 100%;
+}
+h1{
+    margin-top: 1px;
+    margin-bottom: 7px;
+    font-size:39px ;
+    text-transform: none;
+}
+    @media (max-width:768px) and (min-width:1px) {
+         h1{
+        font-size: 22px;
+        }
+    }
+button{
+    background: red;
+    font-size: 12px;
+    padding: 1%;
+    text-decoration: none;
+}
+
+/* @media (max-width:960){
+    .content{
+        padding: 0% 3%;
+    }
+} */
+/*INICIO FOOTER*/
+footer{
+    margin: 4% 0% 0% 0%;
+    color: #fb0097;
+    padding: 5%;
+    clear: both
+}
+.socialMedia img{
+    padding: 8%;
+}
+footer h3{
+    font-size: 16px;
+}
+.ficus{
+    margin: -4% 0% 0% 0%;
+}/*-----FIN FOOTER-----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INICIO ENCABEZADO*/
+
+/* .headerLogo{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    height: 100%;
+    padding: 11% 0% 0% 20%;
+    }
+
+    @media (max-width:768px) and (min-width:1px) {
+        Header h1 {
+            font-size: 12px;
+        }
+}*/
+/*----- FIN ENCABEZADO-----*/
+
+/* .content{
+    max-width:90% ;
+    padding: left 1%; ;
+    padding-right:  1%;
+    margin: auto;
+    text-align: center;
+} */
+
+/*INICIO MENU DE NAVEGACION*/
+
+
+/*----- FIN MENU DE NAVEGACION-----*/
+
+
+
+
+/* Video html */
+
+/* .contenedor{
+    position: relative;
+    text-align: center;
+}
+
+.imgVideo{
+    position: absolute;
+    top: 5%;
+    left: 1%;
+}*/
+
+/* .imgVideo img{
+    max-width: 56%;
+}
+.textVideo{
+    position: absolute;
+    top: 30%;
+    left: 58%;
+}
+.textVideo h4{
+    font-size: 50px;
+    color: #ffffff;
+}
+.textVideo h5{
+font-size: 27px;
+color: #ffffff;
+}
+
+.trivia {
+    position: absolute;
+    top: 30%;
+    left: 58%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Modal */
+
+
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+
+
+header {
+    background-color: black;
+}
+
+.card-column {
+    column-gap: 1.25rem;
+}
+
+.card {
+    display: inline-block;
+    width: 100%;
+}
+
+.thumbnail {
+    background-color: black;
+}
+
+@media (max-width: 300px) {
+    .card-column {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .card-column {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    .card-column {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 1000px) {
+    .card-column {
+        column-count: 4;
+    }
 }
