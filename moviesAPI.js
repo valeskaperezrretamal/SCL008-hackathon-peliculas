@@ -42,7 +42,7 @@ let getdata=()=>{
 }
 }
 let fillFilms = () =>{
-    //para ruta a seguir, en la api para seguir el url
+    
     let  htmlcode ="";
 
     for(let i =0;i<nombrePelis.length;i++){
