@@ -70,9 +70,10 @@ Se realizaron testeos a usuarios, los feedback que más se repitieron fueron los
 
 ## Organización
 Para poder hacer frente a este proyecto nos dividimos las gunciones, pero siempre con constante retroalimentación y aportando ideas en el trabajo de cada una.
-*  **Joce Casteletti** Se encargo del DOM en funciones de logistica y diseño del proyecto.
+*  **Joce Casteletti** Se encargo del código, del DOM, en funciones de logistica y diseño del proyecto.
 *   **Maria José Marquez** Fue la encargada de el estudio de usuario, realiazación de readme y prototipos, también en creación de html.
-*    **Valeska Pérez Retamal** Se encargó del codigo, funciones del DOM y la logistica del proyecto, erealizar Readme y diseño del proyecto.
+*    **Valeska Pérez Retamal** Se encargó del código, funciones del DOM y la logistica del proyecto, erealizar Readme y diseño del proyecto.
+##### Nuestra pagína
 [Ingresa a nuestra pagína <---Acá](https://valeskaperezrretamal.github.io/SCL008-hackathon-peliculas/index.html)
  
 
