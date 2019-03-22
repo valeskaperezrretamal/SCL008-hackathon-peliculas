@@ -2,17 +2,17 @@
 
  ## Índice
 
- * [Sobre Data Marvel](#Sobre-Data-Marvel)
+ * [Sobre MarveLab](#Sobre-MarveLab)
 * [Planificación](#Planificación)
 * [Usuarios](#Usuarios)
 * [Pasos para la creación de la pagína](#Pasos-para-la-creación-de-la-pagina)
 * [Organización](#organizacion)
 * [Tester](Testeos)
-* [Conclusiones y desafios que continuan](#conclusiones-y-desafios-que-continuan)
+* [Conclusiones y desafíos que continuan](#conclusiones-y-desafíos-que-continuan)
 
  ***
 
- ## Sobre Data Marvel
+ ## Sobre MarveLab
 
 La idea principal al crear MarveLab es hacer una web simple con la información necesaria para que los usuarios conozcan sobre el Universo Marvel. Puedan ver la información de las películas, ver Trailers , saber en que orden verlas y ademas tener acceso rápido a las bandas sonoras y cómics.
 
@@ -28,13 +28,13 @@ La idea principal al crear MarveLab es hacer una web simple con la información 
  Nos enfocamos en dos grandes grupos de usuarios  los que ya saben sobre las películas de Marvel, esos que son fanaticos. Y los que están interesados en conocer sobre ellas, en comenzar a explorar el mundo de las peliculas Marvel.
  Se realizaron encuestas para realizar las historias de Usuario  , Obtuvimos 32 respuestas.
 
- [Puedes-ver-los-resultados-de-estas-encuestas-Aquí](https://goo.gl/forms/8Se05ez7hFWepGhM2)
+ [Puedes ver los resultados de estas encuestas Aquí <----](https://goo.gl/forms/8Se05ez7hFWepGhM2)
 
 
  ## Pasos para la creación de la pagína 
   #### Historias de usuarios
   Una vez relizadas las encuentas se construyeron las historias de usuarios. 
-  Para poder acceder a ellas se creó un tablero con las tareas realizadas para poder crear las historias de usuarios [revisalas-Aquí](https://trello.com/b/0QKYnMqp/marvel)
+  Para poder acceder a ellas se creó un tablero con las tareas realizadas para poder crear las historias de usuarios [revisalas Aquí <--](https://trello.com/b/0QKYnMqp/marvel)
   * Los criterios de apcepación para las hisorias de usuaro son las siguentes: 
    * Que el usuario pueda revisar el catalogo ordenado por años y así pueda verlas cronológicamente.
    * Que el usuario pueda ordenar las peliculas por orden alfabetico
@@ -58,7 +58,8 @@ La idea principal al crear MarveLab es hacer una web simple con la información 
 ![Prototipode Alta fidelidad](imagenes/proto-alta3.png)
 ![Prototipode Alta fidelidad](imagenes/proto-alta4.png)
 
-![Puedes revisar nuestro tablero de prototipo de alta fidelidad Acá](https://www.figma.com/proto/SJnwHMfo6eRvtrlGAXoaZxSn/Untitled?node-id=0:1&amp;scaling=min-zoom)
+#### Prototipo de Alta fidelidad
+[Tablero prototipo de alta fidelidad<--- Acá](https://www.figma.com/proto/SJnwHMfo6eRvtrlGAXoaZxSn/Untitled?node-id=0:1&amp;scaling=min-zoom)
 
 ## Tester
 Se realizaron testeos a usuarios, los feedback que más se repitieron fueron los siguientes: 
@@ -69,9 +70,10 @@ Se realizaron testeos a usuarios, los feedback que más se repitieron fueron los
 
 ## Organización
 Para poder hacer frente a este proyecto nos dividimos las gunciones, pero siempre con constante retroalimentación y aportando ideas en el trabajo de cada una.
-**Joce Casteletti** Se encargo del DOM en funciones de logistica y diseño del proyecto.
-**Maria José Marquez** Fue la encargada de el estudio de usuario, realiazación de readme y prototipos, también en creación de html.
-**Valeska Pérez Retamal** Se encargó del codigo, funciones del DOM y la logistica del proyecto, en realizar Readme y diseño del proyecto.
+*  **Joce Casteletti** Se encargo del DOM en funciones de logistica y diseño del proyecto.
+*   **Maria José Marquez** Fue la encargada de el estudio de usuario, realiazación de readme y prototipos, también en creación de html.
+*    **Valeska Pérez Retamal** Se encargó del codigo, funciones del DOM y la logistica del proyecto, erealizar Readme y diseño del proyecto.
+[Ingresa a nuestra pagína <---Acá](https://valeskaperezrretamal.github.io/SCL008-hackathon-peliculas/index.html)
  
 
 
