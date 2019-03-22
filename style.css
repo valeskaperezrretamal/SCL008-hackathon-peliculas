@@ -3,7 +3,30 @@
      font-family: 'Marvel', sans-serif;
      color: white;
 }
+#ordenar{
+    background: #333;
+    color: white;
+    height: 0px;
+    
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
 
+#ordenar button{
+    background-color:rgba(180, 73, 23, 0.76);
+    color: white;
+    border-radius: 20px;
+    border-color: black;
+}
+
+#ordenar button:hover{
+    background-color:rgb(180, 73, 23);
+    color: white;
+    border-radius: 20px;
+    border-color: black;
+}
 body{
     margin: 0%;
 }
